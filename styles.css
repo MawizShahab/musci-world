@@ -1,0 +1,286 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.rm-pd {
+  padding: 0;
+}
+
+.rm-mg {
+  margin: 0;
+}
+
+.homescreen-container {
+  padding: 60px 25px 0 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    color: #f6f5ff;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .homescreen-container {
+    padding: 60px 25px 0 25px;
+  }
+
+  .homescreen-container {
+    background-image: url("./images/home-page-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+  }
+
+  .homepage-tabs {
+    margin-top: 16px;
+  }
+
+  .nav.nav-tabs {
+    border-radius: 60px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(86.5px);
+    padding: 4px;
+    justify-content: space-between;
+    align-items: center;
+    border: 0;
+  }
+
+  .nav-link.active {
+    color: #23213b !important;
+    text-align: center;
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    border-radius: 70px !important;
+    background: #f6f5ff;
+    width: 105px;
+  }
+
+  .nav-link {
+    color: #f6f5ff !important;
+    text-align: center;
+    font-size: 13px !important;
+    font-style: normal;
+    font-weight: 500 !important;
+    line-height: normal;
+    letter-spacing: -0.3px;
+    width: 105px;
+  }
+
+  .singers-container {
+    /* margin-top: 35px; */
+    position: relative;
+  }
+
+  .singer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    max-width: 60px;
+    position: relative;
+  }
+
+  .singer img {
+    width: 100%;
+  }
+
+  .singer .name {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
+  /* .singer.one {
+    top: 80px;
+    left: 35px;
+  }
+
+  .singer.two {
+    top: -20px;
+    left: 155px;
+  }
+
+  .singer.three {
+    top: -45px;
+    left: 265px;
+  }
+
+  .singer.four {
+    top: -70px;
+    left: 130px;
+  }
+
+  .singer.five {
+    top: -40px;
+    left: -10px;
+  }
+
+  .singer.six {
+    top: -115px;
+    left: 260px;
+  }
+
+  .singer.seven {
+    top: -60px;
+    left: 230px;
+  }
+
+  .singer.eight {
+    top: -125px;
+    left: 100px;
+  }
+
+  .singer.nine {
+    top: -175px;
+    left: -10px;
+  }
+
+  .singer.ten {
+    top: -180px;
+    left: 250px;
+  } */
+
+  .navigation-container-wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .navigation-container {
+    background-image: url(./images/navigation-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 15px 25px 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .singer.one {
+    top: 80px;
+    left: 35px;
+  }
+
+  .singer.two {
+    top: -20px;
+    left: 155px;
+  }
+
+  .singer.three {
+    top: -45px;
+    left: 265px;
+  }
+
+  .singer.four {
+    top: -70px;
+    left: 130px;
+  }
+
+  .singer.five {
+    top: -40px;
+    left: -10px;
+  }
+
+  .singer.six {
+    top: -115px;
+    left: 260px;
+  }
+
+  .singer.seven {
+    top: -60px;
+    left: 230px;
+  }
+
+  .singer.eight {
+    top: -125px;
+    left: 100px;
+  }
+
+  .singer.nine {
+    top: -175px;
+    left: -10px;
+  }
+
+  .singer.ten {
+    top: -180px;
+    left: 250px;
+  }
+}
+
+@media screen and (min-width: 391px) and (max-width: 430px) {
+  .singer.one {
+    top: 80px;
+    left: 35px;
+  }
+
+  .singer.two {
+    top: -20px;
+    left: 180px;
+  }
+
+  .singer.three {
+    top: -50px;
+    left: 300px;
+  }
+
+  .singer.four {
+    top: -70px;
+    left: 130px;
+  }
+
+  .singer.five {
+    top: -40px;
+    left: 20px;
+  }
+
+  .singer.six {
+    top: -115px;
+    left: 300px;
+  }
+
+  .singer.seven {
+    top: -60px;
+    left: 230px;
+  }
+
+  .singer.eight {
+    top: -125px;
+    left: 100px;
+  }
+
+  .singer.nine {
+    top: -175px;
+    left: -10px;
+  }
+
+  .singer.ten {
+    top: -195px;
+    left: 250px;
+  }
+}
